@@ -1,0 +1,2 @@
+docker build -t wallet-service .
+docker run -p 8000:8000 wallet-service
