@@ -14,3 +14,5 @@ Kubernetes: Deploy the containers to a Kubernetes cluster for scaling.
 Cloud Integration:
 Use Google Cloud Storage for storing documents like loan agreements.
 Leverage Google Cloud Monitoring and Cloud Logging to track app performance.
+
+Use Google Cloud Monitoring or Prometheus for monitoring resource utilization, errors, and app performance. Integrate Grafana for real-time visualization.
