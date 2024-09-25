@@ -1,0 +1,15 @@
+# Base image
+FROM python:3.9-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy code and install dependencies
+COPY . /app
+RUN pip install fastapi uvicorn
+
+# Expose the port
+EXPOSE 8000
+
+# Command to run the application
+CMD ["uvicorn", "wallet_service:app", "--host", "0.0.0.0", "--port", "8000"]
